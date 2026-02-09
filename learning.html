@@ -1,216 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تعلم البرمجة | TseYFZ</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="theme.css">
-</head>
-<body>
-    <!-- القائمة الذهبية المثبتة -->
-    <div class="gold-sidebar">
-        <button class="gold-menu-btn" id="goldMenuBtn">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="gold-menu" id="goldMenu">
-            <div class="gold-menu-header">
-                <i class="fas fa-crown"></i> قائمة سريعة
-            </div>
-            <a href="index.html" class="gold-menu-item">
-                <i class="fas fa-home"></i> الصفحة الرئيسية
-            </a>
-            <a href="about.html" class="gold-menu-item">
-                <i class="fas fa-user"></i> عني
-            </a>
-            <a href="learning.html" class="gold-menu-item active">
-                <i class="fas fa-code"></i> تعلم البرمجة
-            </a>
-            <a href="portfolio.html" class="gold-menu-item">
-                <i class="fas fa-briefcase"></i> أعمالي
-            </a>
-            <div class="gold-menu-divider"></div>
-            <div class="gold-menu-header">
-                <i class="fas fa-graduation-cap"></i> دوراتي
-            </div>
-            <a href="#html-course" class="gold-menu-item">
-                <i class="fab fa-html5"></i> دورة HTML
-            </a>
-            <a href="#css-course" class="gold-menu-item">
-                <i class="fab fa-css3-alt"></i> دورة CSS
-            </a>
-            <div class="gold-menu-divider"></div>
-            <div class="gold-menu-header">
-                <i class="fas fa-globe"></i> روابط خارجية
-            </div>
-            <a href="https://satr.tuwaiq.edu.sa" target="_blank" class="gold-menu-item">
-                <i class="fas fa-external-link-alt"></i> منصة STC
-            </a>
-        </div>
-    </div>
-
-    <!-- شريط التنقل -->
-    <nav class="toolbar">
-        <div class="container">
-            <div class="toolbar-inner">
-                <div class="toolbar-brand">
-                    <h1 class="brand-name">TseYFZ</h1>
-                    <p class="brand-tag">تعلم البرمجة</p>
-                </div>
-                
-                <div class="toolbar-nav">
-                    <a href="index.html" class="nav-link">
-                        <i class="fas fa-home"></i> الرئيسية
-                    </a>
-                    <a href="about.html" class="nav-link">
-                        <i class="fas fa-user"></i> عني
-                    </a>
-                    <a href="learning.html" class="nav-link active">
-                        <i class="fas fa-code"></i> تعلم البرمجة
-                    </a>
-                    <a href="portfolio.html" class="nav-link">
-                        <i class="fas fa-briefcase"></i> أعمالي
-                    </a>
-                </div>
-                
-                <button class="menu-toggle" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- القائمة المتنقلة للجوال -->
-    <div class="mobile-nav" id="mobileMenu">
-        <a href="index.html" class="mobile-nav-link">
-            <i class="fas fa-home"></i> الرئيسية
-        </a>
-        <a href="about.html" class="mobile-nav-link">
-            <i class="fas fa-user"></i> عني
-        </a>
-        <a href="learning.html" class="mobile-nav-link active">
-            <i class="fas fa-code"></i> تعلم البرمجة
-        </a>
-        <a href="portfolio.html" class="mobile-nav-link">
-            <i class="fas fa-briefcase"></i> أعمالي
-        </a>
-    </div>
-
-    <!-- قسم البطل -->
-    <section class="learning-hero">
-        <div class="container">
-            <h1 class="hero-title">🚀 رحلة تعلم البرمجة من الصفر</h1>
-            <p class="hero-subtitle">
-                دليل شامل لتعلم البرمجة خطوة بخطوة
-            </p>
-            <a href="#roadmap" class="btn btn-primary">
-                <i class="fas fa-play"></i> ابدأ الرحلة
-            </a>
-        </div>
-    </section>
-
-    <!-- خطة التعلم -->
-    <section id="roadmap" class="roadmap-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">🗺️ خطة التعلم</h2>
-                <p class="section-subtitle">مسار منظم لتعلم البرمجة</p>
-            </div>
-            
-            <div class="roadmap-steps">
-                <!-- الخطوة 1 -->
-                <div class="roadmap-step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>أساسيات البرمجة</h3>
-                        <p>تعلم المفاهيم الأساسية والمتغيرات والدوال</p>
-                        <a href="#" class="step-link">ابدأ التعلم</a>
-                    </div>
-                </div>
-                
-                <!-- الخطوة 2 -->
-                <div class="roadmap-step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>HTML & CSS</h3>
-                        <p>بناء واجهات الويب وتصميمها</p>
-                        <a href="#" class="step-link">ابدأ التعلم</a>
-                    </div>
-                </div>
-                
-                <!-- الخطوة 3 -->
-                <div class="roadmap-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>JavaScript</h3>
-                        <p>إضافة التفاعلية لمواقع الويب</p>
-                        <a href="#" class="step-link">ابدأ التعلم</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- دورات مصغرة -->
-    <section class="mini-courses">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">📚 دورات مصغرة</h2>
-                <p class="section-subtitle">ابدأ بهذه الدورات المجانية</p>
-            </div>
-            
-            <div class="courses-mini">
-                <div class="mini-course">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML الأساسي</h3>
-                    <p>تعلم بناء هيكل صفحات الويب</p>
-                    <a href="index.html#html-course" class="btn btn-small">ابدأ</a>
-                </div>
-                <div class="mini-course">
-                    <i class="fab fa-css3-alt"></i>
-                    <h3>CSS الأساسي</h3>
-                    <p>تعلم تنسيق وتصميم المواقع</p>
-                    <a href="index.html#css-course" class="btn btn-small">ابدأ</a>
-                </div>
-                <div class="mini-course">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>تعلم برمجة الويب التفاعلي</p>
-                    <a href="#" class="btn btn-small">ابدأ</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- التذييل -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>تعلم البرمجة</h3>
-                    <p>دليل شامل لتعلم البرمجة</p>
-                </div>
-                <div class="footer-section">
-                    <h3>روابط سريعة</h3>
-                    <a href="index.html">الرئيسية</a>
-                    <a href="about.html">عني</a>
-                    <a href="learning.html">تعلم البرمجة</a>
-                    <a href="portfolio.html">أعمالي</a>
-                </div>
-                <div class="footer-section">
-                    <h3>مساعدتك</h3>
-                    <a href="mailto:contact@tseyfz.com">اسأل سؤال</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2024 TseYFZ. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- الروابط -->
-    <script src="script.js"></script>
-    <script src="menu.js"></script>
-</body>
-</html>
